@@ -26,8 +26,8 @@ using namespace std;
 int main()
 {
 	int target;
-	solution s;
-	vector<int>& nums = s.getNums();
+	solution s1;
+	vector<int> nums;
 
 	nums.push_back(0);
 	nums.push_back(1);
@@ -47,8 +47,8 @@ int main()
 	cin >> target;
 	//cout << target;
 	
-	solution s(nums, target);
-	s.twoSum(nums, target);
+	solution s2(nums, target);
+	s2.twoSum(nums, target);
 
 	return 0;
 }

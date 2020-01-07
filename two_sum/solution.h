@@ -11,9 +11,11 @@ private:
 	int target;
 
 public:
+	int i = 0;
+public:
 	solution(std::vector<int>& nums, int target):nums(this->nums), target(this->target) {}
-	solution();
-	~solution();
+	solution():nums(nums), target(0) {}
+	
 
 	std::vector<int> twoSum(std::vector<int>& nums, int target);
 	std::vector<int> getNums()
