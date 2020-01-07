@@ -6,13 +6,20 @@ using namespace std;
 
 class solution
 {
+private:
+	std::vector<int>& nums;
+	int target;
+
 public:
+	solution(std::vector<int>& nums, int target):nums(this->nums), target(this->target) {}
+	solution();
+	~solution();
 
 	std::vector<int> twoSum(std::vector<int>& nums, int target);
-
-private:
-	std::vector<int>& number;
-	int sum;
+	std::vector<int> getNums()
+	{
+		return nums;
+	}
 
 };
 

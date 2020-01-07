@@ -1,4 +1,14 @@
 ﻿  main.cpp
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(30,32): error C2662: 'std::vector<int,std::allocator<_Ty>> solution::getNums(void)': cannot convert 'this' pointer from 'const solution' to 'solution &'
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(30,32): error C2662:         with
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(30,32): error C2662:         [
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(30,32): error C2662:             _Ty=int
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(30,32): error C2662:         ]
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(30,22): message : Conversion loses qualifiers
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\solution.h(19,19): message : see declaration of 'solution::getNums'
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(30,20): error C2530: 'nums': references must be initialized
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(50,11): error C2373: 's': redefinition; different type modifiers
   solution.cpp
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\main.cpp(29): message : see declaration of 's'
   Generating Code...
-  two_sum.vcxproj -> D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\Debug\two_sum.exe
+D:\git\visual_studio_code\LeetCode\LeetCode_C-\two_sum\solution.cpp(14,22): warning C4553: '==': result of expression not used; did you intend '='?
